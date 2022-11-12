@@ -94,7 +94,9 @@ const calculateWinner = (squares) => {
     if (!squares[a] || !squares[b] || !squares[c]) {
       isDraw = false;
     }
+    // ahalan albatal
   }
   if (isDraw) return 'D';
   return null;
 };
+// hhhhhhh my 
